@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'DESKTOP-8VV14AF',
-	'username' => '',
-	'password' => '',
-	'database' => 'UAirlines',
+	'hostname' => 'tcp:uairlines.database.windows.net,1433',
+	'username' => 'UAadmin',
+	'password' => 'Ukraine1!',
+	'database' => 'UADB',
 	'dbdriver' => 'sqlsrv',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
