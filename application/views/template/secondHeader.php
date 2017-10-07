@@ -9,6 +9,7 @@
 								<li><a href="<?php echo site_url('login/offers') ?>">SPECIAL OFFERS</a></li>
 								<li><a href="<?php echo site_url('login/contact') ?>">CONTACT US</a></li>
 								<li><a href="<?php echo site_url('login/profile') ?>">PROFILE</a></li>
+								<li><a href="<?php echo site_url('login/profile') ?>">LOGOUT</a></li>
 							</ul>
 						</nav>
 						<div class="clear"></div>

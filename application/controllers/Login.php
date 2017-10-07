@@ -12,25 +12,7 @@ class Login extends CI_Controller {
 
 	public function validate_credentials()
 	{
-		/*$this->load->model('membership_model');
-		$query = $this->membership_model->validate();*/
-
-		/*if($query) //if credentials are validated
-		{
-			$data = array
-			(
-				'Username' => $this->input->post('username'),
-				'is_logged_in' => true
-			);
-
-			$this->session->set_userdata($data);
-			redirect('home');
-		}
-		else //incorrect creds
-		{
-			$this->index();
-		}*/
-		
+				
 			$this->load->view('template/header');
 			$this->load->view('template/secondHeader');
 			$this->load->view('home');
